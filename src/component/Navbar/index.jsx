@@ -17,7 +17,7 @@ function Index() {
           <img src={Logo} className={`${styles.img}`} alt="" />
         </div>
         <div>
-          <ul className="hidden font-semibold lg:flex gap-x-5 ">
+          <ul className="hidden font-semibold lg:flex gap-x-7 ">
             <li className={`${styles.home}`}>Home</li>
             <li>Product</li>
             <li>Services</li>
@@ -29,7 +29,7 @@ function Index() {
         </div>
       </div>
       {showMenu === true ? (
-        <div className={`${styles.mobileBg} flex flex-row`}>
+        <div className={`${styles.mobileBg} flex flex-row `}>
           <ul
             className={`${styles.list} flex flex-col px-5 pb-5 text-white gap-y-3`}
           >
