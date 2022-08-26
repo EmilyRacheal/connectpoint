@@ -18,7 +18,7 @@ function Index() {
           </p>
           <div className="flex gap-x-5 items-center md:pt-10 py-5">
             <img src={Play} alt="" className={`${styles.playImg}`} />
-            <button className={`${styles.learn} px-5 py-2 text-center`}>
+            <button className={`${styles.learn}  text-center`}>
               Learn more
             </button>
           </div>

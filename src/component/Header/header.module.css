@@ -18,6 +18,8 @@
   font-weight: 400;
 }
 .learn {
+  width: 140px;
+  height: 50px;
   background: #028bbe;
   color: #ffff;
   border-radius: 8px;
@@ -53,5 +55,6 @@
   .learn {
     width: 50%;
     font-size: 12px;
+    height: 40px;
   }
 }
