@@ -1,14 +1,10 @@
 import "./App.css";
-import Navbar from "./component/Navbar/index";
-import Header from "./component/Header/index";
-import Patners from "./component/Patners/index";
+import Home from "./pages/home";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Header />
-      <Patners />
+      <Home />
     </div>
   );
 }
