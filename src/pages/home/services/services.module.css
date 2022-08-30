@@ -1,0 +1,46 @@
+.titleText {
+  color: #028bbe;
+}
+
+.card {
+  width: 100%;
+  background: #fefeff;
+  border: 1px solid #c2baba;
+  border-radius: 12px;
+  margin-top: 25px;
+}
+
+.card:hover {
+  box-shadow: 10px 2px 20px #0a485f;
+  transition: all 0.5s;
+}
+
+.card img {
+  width: 55px;
+  height: auto;
+}
+
+.card h2 {
+  color: #028bbe;
+}
+
+.card p {
+  color: #000;
+  font-size: 17px;
+  max-height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  .dotsImg {
+    width: 40px;
+    height: auto;
+  }
+
+  .card img{
+    width: 40px;
+  }
+
+  .titleText{
+    font-size: 20px;
+  }
+}

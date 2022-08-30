@@ -3,7 +3,8 @@ import NavBar from "../../component/Navbar";
 import Header from "./Header";
 import Partner from "./Patners";
 import Payments from "./payments";
-import Solutions from "./solutions/index"
+import Solutions from "./solutions"
+import Services from "./services"
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <Partner />
       <Payments />
       <Solutions />
+      <Services />
     </>
   );
 };
