@@ -1,0 +1,74 @@
+.downloadBg {
+  background: #028bbe;
+}
+
+.downloadText {
+  /* width: 500px; */
+}
+
+.downloadText h3 {
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.downloadText p {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.callToaction {
+  background: #ffffff;
+  width: 1050px;
+}
+
+.callToaction h3 {
+  color: #028bbe;
+  font-weight: 600;
+  font-size: 30px;
+}
+.callToaction p {
+  margin-top: 10px;
+  color: #555050;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+  .downloadText h3 {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 15px;
+  }
+  .downloadText p {
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .callToaction {
+    width: 75%;
+  }
+  .callToaction h3 {
+    font-size: 20px;
+  }
+  .callToaction p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .downloadText h3 {
+    color: #ffffff;
+    /* font-size: 30px; */
+    line-height: 30px;
+  }
+  .callToaction h3 {
+    font-size: 16px;
+  }
+  .callToaction p {
+    font-size: 16px;
+  }
+  .callToaction {
+    background: #ffffff;
+    width: 90%;
+  }
+}

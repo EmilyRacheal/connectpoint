@@ -1,0 +1,18 @@
+.serviceBg {
+  background: #028bbe;
+}
+.line {
+  height: 3px;
+  background: #ffffff;
+  width: 730px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+}

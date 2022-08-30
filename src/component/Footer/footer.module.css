@@ -1,0 +1,13 @@
+.footerBg {
+  background: #028bbe;
+}
+
+.footerB {
+  line-height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .footerB {
+    line-height: 27px;
+  }
+}
