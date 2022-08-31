@@ -12,7 +12,7 @@ const Index = () => {
   return (
     <div className="w-full  md:px-20 px-5 py-20">
       <h2 className={`${styles.titleText} text-center text-4xl font-bold`}>
-        Payment Made Easy
+        Financial services on your fingertip
       </h2>
 
       <div className="w-full flex justify-between mt-10">

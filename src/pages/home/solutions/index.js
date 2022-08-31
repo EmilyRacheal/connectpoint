@@ -9,7 +9,7 @@ import pc1 from "../../../assets/pc1.png";
 
 const Index = () => {
   return (
-    <div className={`${styles.container} w-full  md:px-20 px-5 mt-11`}>
+    <div className={`${styles.container} w-full pt-10  md:px-20 px-5 mt-11`}>
       <h2 className="text-center text-white text-4xl font-bold pt-8">
         Modern solutions to connect to your business
       </h2>

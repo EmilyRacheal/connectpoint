@@ -19,14 +19,14 @@ const Index = () => {
       <NavBar />
       <Header />
       <Partner />
-      <Payments />
-      <Solutions />
       <Services />
       <PaymentServices />
-      <Testimonials />
       <Youtube />
-      <CTA />
+      <Payments />
+      <Solutions />
+      <Testimonials />
       <NewsLetter />
+      <CTA />
       <Footer />
     </>
   );
