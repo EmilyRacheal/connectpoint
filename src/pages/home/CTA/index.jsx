@@ -6,7 +6,7 @@ import Phone2 from "../../../assets/ge1.png";
 function Index() {
   return (
     <div className={`${styles.downloadBg} border-b border-b-white  `}>
-      <div className="flex items-center justify-center md:px-20 px-5 ">
+      <div className="flex items-center justify-center md:px-20 px-5 pt-7 sm:pt-0 ">
         <div className={`${styles.downloadText} `}>
           <h3 className="mb-5 md:font-bold">DownloadCpoint Pay & Agent App</h3>
           <p>Register and start transacting in less that 2 minutes.</p>

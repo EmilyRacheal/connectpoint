@@ -27,3 +27,8 @@
   height: 340px;
 }
 
+@media screen and (max-width: 900px) {
+  .cardImgBox{
+    height: 280px;
+  }
+}

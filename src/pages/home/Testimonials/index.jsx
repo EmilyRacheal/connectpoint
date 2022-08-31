@@ -13,7 +13,9 @@ function Index() {
         </div>
       </div>
 
-      <div className={`${styles.cardBox} flex gap-x-3`}>
+      <div
+        className={`${styles.cardBox} flex sm:flex-row flex-col gap-x-3 gap-y-4 sm:gap-y-0`}
+      >
         <div className={`${styles.test1} md:py-8 py-5 md:px-8 px-3 `}>
           <h3 className="font-semibold md:pb-8 pb-3 text-center">
             Damiana Rita
