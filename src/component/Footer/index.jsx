@@ -44,7 +44,7 @@ function Index() {
         </div>
       </div>
       <div
-        className={`${styles.footerB} lg:px-20 px-5 pt-5 text-white md:text-lg text-sm`}
+        className={`${styles.footerB} lg:px-20 px-5 pt-5 text-white md:text-lg text-sm pb-20`}
       >
         <p>
           © 2022. Connectpoint is a PPS Liscenced company with its services

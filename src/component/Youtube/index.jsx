@@ -11,7 +11,15 @@ function Index() {
         >
           Connecting People, Businesses with Payment Tools & Solutions
         </h3>
-        <img src={Youplay} alt="" srcset="" />
+        {/* <img src={Youplay} alt="" srcset="" /> */}
+        <iframe
+          width="860"
+          height="417"
+          src="https://www.youtube.com/embed/uXWycyeTeCs"
+          title="Youtube Player"
+          frameborder="0"
+          allowFullScreen
+        />
       </div>
     </div>
   );
