@@ -9,15 +9,15 @@ import pc1 from "../../../assets/pc1.png";
 
 const Index = () => {
   return (
-    <div className={`${styles.container} w-full  md:px-20 px-5 mt-11 pb-10`}>
-      <h2 className="text-center text-white text-3xl sm:text-4xl font-bold pt-8">
+    <div className={`${styles.container} w-full pt-10  md:px-20 px-5 mt-11`}>
+      <h2 className="text-center text-white text-3xl md:text-4xl font-bold pt-8">
         Modern solutions to connect to your business
       </h2>
       <p className="text-center text-white py-2 text-lg">
         Unlock more opportunities to finance your business.
       </p>
 
-      <div className="flex justify-between mt-14 gap-x-14 flex-col md:flex-row  ">
+      <div className="flex justify-between flex-col md:flex-row mt-14 gap-x-14 ">
         <div className={`${styles.cardBox} w-full md:w-1/2 relative`}>
           <div className={`${styles.imgBox}`}>
             <img src={phone1} alt="phone" className={`${styles.img1}`} />
@@ -28,17 +28,19 @@ const Index = () => {
             />
           </div>
 
-          <h2 className={`${styles.titleText} text-3xl font-bold mt-6`}>
+          <h2
+            className={`${styles.titleText} text-2xl md:text-3xl font-bold mt-6`}
+          >
             Cpoint Pay
           </h2>
-          <p className="my-4 text-lg  md:text-2xl">
+          <p className="my-4 text-lg md:text-2xl">
             Take advantage of the amazing payment solutions, make all your
             transactions on the CpointPay app
           </p>
         </div>
 
         <div
-          className={`${styles.cardBox} w-full mt-8 md:mt-0 md:w-1/2 relative`}
+          className={`${styles.cardBox} w-full md:w-1/2 mt-10 md:mt-0 relative`}
         >
           <div className={`${styles.imgBox}`}>
             <img src={pos1} alt="phone" className={`${styles.img3}`} />
@@ -49,10 +51,12 @@ const Index = () => {
             />
           </div>
 
-          <h2 className={`${styles.titleText} text-3xl font-bold mt-6`}>
+          <h2
+            className={`${styles.titleText} text-2xl md:text-3xl font-bold mt-6`}
+          >
             Cpoint Agent
           </h2>
-          <p className="my-4 text-lg  md:text-2xl">
+          <p className="my-4 text-lg md:text-2xl">
             Accept payments from your customers with our POS terminals which are
             secure and reliable for all your card transactions.
           </p>
@@ -62,10 +66,12 @@ const Index = () => {
       <div
         className={`${styles.cardBox} w-full mt-10 flex-col flex justify-center items-center`}
       >
-        <h2 className={`${styles.titleText} text-3xl font-bold mt-2`}>
+        <h2
+          className={`${styles.titleText} text-2xl md:text-3xl font-bold mt-2`}
+        >
           Cpoint Retail
         </h2>
-        <p className="my-4 text-lg  md:text-2xl">
+        <p className="my-4 text-lg md:text-2xl">
           Manage every aspect of your business with the Moniepoint app and get
           easy access to your finances on-the-go.
         </p>

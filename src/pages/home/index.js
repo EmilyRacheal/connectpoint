@@ -4,7 +4,14 @@ import Header from "./Header";
 import Partner from "./Patners";
 import Payments from "./payments";
 import Solutions from "./solutions"
-import Services from "./services"
+import PaymentServices from "./Paymentservices"
+import Services from "./Services"
+import Testimonials from "./Testimonials"
+import CTA from "./CTA"
+import NewsLetter from "./Newsletter"
+import Youtube from "./Youtube"
+import Footer from "../../component/Footer"
+
 
 const Index = () => {
   return (
@@ -12,9 +19,15 @@ const Index = () => {
       <NavBar />
       <Header />
       <Partner />
+      <Services />
+      <PaymentServices />
+      <Youtube />
       <Payments />
       <Solutions />
-      <Services />
+      <Testimonials />
+      <NewsLetter />
+      <CTA />
+      <Footer />
     </>
   );
 };

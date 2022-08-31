@@ -7,8 +7,8 @@ import pcImg from "../../../assets/retail.png";
 const Index = () => {
   return (
     <>
-      <div className="w-full  md:px-20 px-5">
-        <h2 className="text-center text-3xl md:text-4xl font-bold">
+      <div className="w-full md:px-20 px-5 py-20">
+        <h2 className={`${styles.titleText} text-center text-2xl sm:text-4xl font-bold`}>
           Payment Made Easy
         </h2>
         <p className="text-center py-2 text-lg">
@@ -18,8 +18,8 @@ const Index = () => {
 
         <div className={`${styles.cardsContainer}`}></div>
 
-        <div className="flex flex-col md:flex-row justify-between mt-14 gap-x-14 ">
-          <div className="w-full md:w-1/2">
+        <div className="flex justify-between flex-col md:flex-row mt-14 gap-x-14 ">
+          <div className=" w-full md:w-1/2 mt-10 md:mt-0">
             <div
               className={`${styles.cardImgBox} relative flex justify-center`}
             >
@@ -31,13 +31,13 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-1/2 mt-5 md:mt-0">
+          <div className="w-full md:w-1/2 mt-8  md:mt-0">
             <h2
-              className={`${styles.titleText} text-2xl md:text-3xl font-bold`}
+              className={`${styles.titleText} text-2xl sm:text-3xl font-bold`}
             >
               Accept payment anytime, anywhere.
             </h2>
-            <p className="my-4 text-base md:text-2xl">
+            <p className="my-4 text-lg sm:text-2xl">
               We are the fastest way to pay, whether you want to send money,
               withdraw, pay for your bills or open an account, Cpoint pay got
               you covered
@@ -49,7 +49,7 @@ const Index = () => {
         </div>
 
         <div className="flex justify-between flex-col md:flex-row-reverse mt-14 gap-x-14 ">
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/2 mt-10 md:mt-0">
             <div
               className={`${styles.cardImgBox} relative flex justify-center`}
             >
@@ -61,13 +61,13 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/2 mt-8  md:mt-0">
             <h2
-              className={`${styles.titleText} text-2xl md:text-3xl mt-5 md:mt-0 font-bold`}
+              className={`${styles.titleText} text-2xl sm:text-3xl font-bold`}
             >
               Make more money offering payment service
             </h2>
-            <p className="my-4 text-base md:text-2xl">
+            <p className="my-4 text-lg sm:text-2xl">
               Become a Cpoint Agent and earn money by assisting your customers
               with paying bills, purchasing airtime or data, making deposits,
               withdrawing money, opening a Cpoint account while earning
@@ -79,8 +79,8 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between mt-14 gap-x-14 ">
-          <div className="w-full md:w-1/2">
+        <div className="flex justify-between flex-col md:flex-row mt-14 gap-x-14 ">
+          <div className="w-full md:w-1/2 mt-10 md:mt-0">
             <div
               className={`${styles.cardImgBox} relative flex justify-center`}
             >
@@ -92,13 +92,13 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/2 mt-8  md:mt-0">
             <h2
-              className={`${styles.titleText} text-2xl md:text-3xl mt-5 md:mt-0 font-bold`}
+              className={`${styles.titleText} text-2xl sm:text-3xl font-bold`}
             >
               Complete control at your fingertip
             </h2>
-            <p className="my-4 text-base md:text-2xl">
+            <p className="my-4 text-lg sm:text-2xl">
               We connect businesses like yours with the best tools to accepts
               payments online and offline either through traditional or non-
               traditional means. Our Cloud based retail Solution allows business

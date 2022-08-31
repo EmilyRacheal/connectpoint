@@ -29,7 +29,7 @@
 
 .img3 {
   position: relative;
-  
+
   z-index: 1;
 }
 
@@ -40,4 +40,11 @@
 
 .titleText {
   color: #028bbe;
+}
+
+@media screen and (max-width: 700px) {
+  .img2,
+  .img4 {
+    display: none;
+  }
 }
